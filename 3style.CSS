@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.quiz-container {
+    background: rgba(255, 255, 255, 0.247);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Default width */
+    max-width: 90%; /* Ensure it doesn't exceed 90% of the viewport */
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.question {
+    margin: 10px 0;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #084e4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b928c;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .quiz-container {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size for the title */
+    }
+
+    button {
+        padding: 8px; /* Reduce button padding */
+    }
+
+    .question {
+        font-size: 18px; /* Adjust font size for the question */
+    }
+
+    .options li {
+        margin: 4px 0; /* Adjust margin for options */
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 20px; /* Further adjust font size for very small screens */
+    }
+
+    .question {
+        font-size: 16px; /* Further adjust question font size */
+    }
+
+    button {
+        padding: 6px; /* Further reduce button padding */
+    }
+}
+
+
+.clock {
+    font-size: 5vw; /* Use viewport width for responsive font size */
+    font-weight: 600;
+    padding: 0.5em; /* Reduced padding */
+    border-radius: 10px;
+    border: 3px solid #000000; /* Reduced border size */
+    color: rgb(0, 0, 0);
+    position: absolute; /* Use absolute positioning */
+    top: 2%; /* Adjust position from top */
+    left: 2%; /* Adjust position from left */
+    box-shadow: 0 0 10px rgb(24, 13, 172);
+}
+/* Media Queries for further adjustments */
+@media (max-width: 600px) {
+    .clock {
+        font-size: 8vw; /* Increase font size for smaller screens */
+        padding: 0.5em; /* Adjust padding */
+    }
+}
+
+@media (max-width: 400px) {
+    .clock {
+        font-size: 10vw; /* Further increase font size for very small screens */
+        padding: 0.3em; /* Reduce padding */
+    }
+}

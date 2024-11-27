@@ -1,0 +1,109 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    background: #00020f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Use flexbox for layout */
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    background-color: #0000003b; /* Black sidebar */
+    color: white; /* White text in sidebar */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.sidebar h2 {
+    text-align: center; /* Center sidebar title */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.sidebar a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.sidebar a:hover {
+    color: #087981; /* Change color on hover */
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 0 rgb(5, 71, 97), -2px -2px 0 rgb(7, 73, 73);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Adjust sidebar for smaller screens */
+    .sidebar {
+        width: 150px; /* Reduce width */
+        padding: 15px; /* Reduce padding */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for mobile devices */
+    .sidebar {
+        width: 100%; /* Full width for mobile */
+        box-shadow: none; /* Remove shadow for mobile */
+    }
+
+    body {
+        flex-direction: column; /* Stack sidebar and slider */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .slider {
+        max-width: 100%; /* Full width for slider */
+    }
+
+    h1 {
+        font-size: 20px; /* Smaller font size */
+        padding-left: 0; /* Remove left padding */
+    }
+}

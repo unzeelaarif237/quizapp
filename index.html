@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted id="background-video">
+        <source src="https://cdn.pixabay.com/video/2016/09/13/5097-182666972_tiny.mp4" type="video/mp4">
+        
+    </video>
+    <div class="content">
+        <h1 class="a">Welcome to My Website</h1>
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+    </div>
+    <div class="container">
+        <h1 class="a">Quiz Form </h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="rollno">Roll No:</label>
+                <input type="text" id="rollno" name="rollno" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact No:</label>
+                <input type="tel" id="contact" name="contact" required>
+            </div>
+            <div class="form-group">
+                <label for="timing">Timing:</label>
+                <input type="text" id="timing" name="timing" required>
+            </div>
+            <div class="form-group">
+                <label for="trainer">Trainer Name:</label>
+                <input type="text" id="trainer" name="trainer" required>
+            </div>
+<button type="submit" class="button"><a href="sidebar.html" >Submit</a></button>
+</form></div>
+
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>

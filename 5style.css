@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX1ecpOmXJl2Lk_NsA0UPwKdCrhvJ9S5V6wQ&s");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background: rgba(255, 255, 255, 0.192);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Default width */
+    max-width: 90%; /* Ensure it doesn't exceed 90% of the viewport */
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.question {
+    margin: 10px 0;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d493f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #189681;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .quiz-container {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust font size for the title */
+    }
+
+    button {
+        padding: 8px; /* Reduce button padding */
+    }
+
+    .question {
+        font-size: 18px; /* Adjust font size for the question */
+    }
+
+    .options li {
+        margin: 4px 0; /* Adjust margin for options */
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 20px; /* Further adjust font size for very small screens */
+    }
+
+    .question {
+        font-size: 16px; /* Further adjust question font size */
+    }
+
+    button {
+        padding: 6px; /* Further reduce button padding */
+    }
+}
+
+
+.clock {
+    font-size: 5vw; /* Use viewport width for responsive font size */
+    font-weight: 600;
+    padding: 0.5em; /* Reduced padding */
+    border-radius: 10px;
+    border: 3px solid #000000; /* Reduced border size */
+    color: rgb(0, 0, 0);
+    position: absolute; /* Use absolute positioning */
+    top: 2%; /* Adjust position from top */
+    left: 2%; /* Adjust position from left */
+    box-shadow: 0 0 10px rgb(13, 172, 119);
+}
+
+/* Media Queries for further adjustments */
+@media (max-width: 600px) {
+    .clock {
+        font-size: 8vw; /* Increase font size for smaller screens */
+        padding: 0.5em; /* Adjust padding */
+    }
+}
+
+@media (max-width: 400px) {
+    .clock {
+        font-size: 10vw; /* Further increase font size for very small screens */
+        padding: 0.3em; /* Reduce padding */
+    }
+}
